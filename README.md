@@ -17,8 +17,11 @@ Each time running the bot, try searching your keywords on eventbrite to make sur
 
 Input should be in the format:
 
-	Line 1: keywords to search, separated by “;”. Try searching the keyword on eventbrite.
+	entrepreneur;business
+	2
+
+Line 1: keywords to search, separated by “;”. Try searching the keyword on eventbrite.
   
-	Line 2: number of pages to look up, the more this value is, the more results are found but longer time it takes and less accurate results.
+Line 2: number of pages to look up, the more this value is, the more results are found but longer time it takes and less accurate results.
   
 The output is in the csv file generated.
