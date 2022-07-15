@@ -3,14 +3,14 @@ import requests
 import bs4
 
 text = input().split(";")
-print(text)
+#print(text)
 numofpages = int(input())
 eventlinks = []
 for searchq in text:
-	print(searchq)
+	#print(searchq)
 	for i in range(numofpages):
 		url = 'https://www.eventbrite.com/d/online/free--events/' + searchq + "/?page=" + str(i+1) + "&lang=en"
-		print(url)
+		#print(url)
 		# Fetch the URL data using requests.get(url),
 		# store it in a variable, request_result.
 		request_result = requests.get(url)
