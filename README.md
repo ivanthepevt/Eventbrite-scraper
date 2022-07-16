@@ -5,13 +5,11 @@ Step-by-step guide can be found at the attached pdf.
 
 Setup (do 1 time only)
 
-	Install side packages:
+Install side packages:
 
 	pip install csv
-
 	pip install requests
-
-pip install bs4
+	pip install bs4
 
 Each time running the bot, try searching your keywords on eventbrite to make sure there is no typo and it can be searched. Wrong keywords with no results can cause an error.
 
